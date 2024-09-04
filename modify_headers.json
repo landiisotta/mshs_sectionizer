@@ -1,0 +1,44 @@
+{
+  "modify_headers": [
+    {
+      "literal": "ED Assessment/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Overall Formulation/Plan  Assessment:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Formulation/Assessment:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Interval HPI:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Admitting HPI:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Mental Status Examination:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "Suicide/Violence Risk Assessment",
+      "category": "suicide_risk"
+    },
+    {
+      "literal": "Suicide Risk Assessment  Suicide Risk Assessment.",
+      "category": "suicide_risk"
+    },
+    {
+      "literal": "Suicide Risk Assessment - (see initial HPI)",
+      "category": "suicide_risk"
+    },
+    {
+      "literal": "Violence Risk Assessment  Has the patient experienced",
+      "category": "violence_risk"
+    }
+  ]
+}
