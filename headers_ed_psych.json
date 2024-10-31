@@ -585,6 +585,10 @@
       "category": "substance_abuse_hx"
     },
     {
+      "literal": " SUBSTANCE ABUSE HX:",
+      "category": "substance_abuse_hx"
+    },
+    {
       "literal": "Most Recent Suicide Severity Rating Scale (C-SSRS)",
       "category": "suicide_risk"
     },
