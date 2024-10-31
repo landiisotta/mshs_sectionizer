@@ -4,9 +4,11 @@ import spacy
 from spacy.tokens import Doc
 import os
 import datetime
+import json
 
 MIN_LENGTH = 150
 HPI = 'history_of_present_illness'
+SECTIONIZER_CONFIG = json.load(open('sectionizer_config.json', 'r'))
 
 
 def sectionize(headers_path: str, text_list: List[str]) -> Iterator[Union[Doc, Doc, Doc]]:
@@ -18,14 +20,11 @@ def sectionize(headers_path: str, text_list: List[str]) -> Iterator[Union[Doc, D
     :return: generator of Spacy language model objects
     """
     nlp = spacy.load('en_core_web_sm')
+    SECTIONIZER_CONFIG["rules"] = headers_path
     for name in nlp.pipe_names:
         nlp.disable_pipe(name)
     nlp.add_pipe('medspacy_sectionizer',
-                 config={'rules': headers_path,
-                         'phrase_matcher_attr': 'TEXT',
-                         'input_span_type': 'ents',
-                         'newline_pattern': '  ',
-                         'require_start_line': True})
+                 config=SECTIONIZER_CONFIG)
     assert 'medspacy_sectionizer' in nlp.pipe_names
     docs = nlp.pipe(text_list)
     return docs
@@ -94,8 +93,8 @@ def select_headers(dt_path: str, headers_path: str, list_sections: List[str],
             add_cat = pd.DataFrame(add_cat, columns=['Index'] + list(dt_sections.columns)).drop(['Index'], axis=1)
             dt_sections = pd.concat([dt_sections, add_cat])
 
+    date_time = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
     if len(check_docs) > 0:
-        date_time = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
         dt_no_header_to_check = pd.DataFrame(check_docs, columns=['Index'] + list(notes.columns)).drop('Index', axis=1)
         if not os.path.isdir('./notes_to_check'):
             os.makedirs('./notes_to_check')

@@ -1,0 +1,60 @@
+{
+  "section_rules": [
+    {
+      "literal": "Appearance, attitude, and relatedness:",
+      "category": "appearance_attitude"
+    },
+    {
+      "literal": "Attention, psychomotor behavior:",
+      "category": "attention_psychomotor"
+    },
+    {
+      "literal": "Speech:",
+      "category": "speech"
+    },
+    {
+      "literal": "Mood:",
+      "category": "mood"
+    },
+    {
+      "literal": "Affect:",
+      "category": "affect"
+    },
+    {
+      "literal": "Thought process:",
+      "category": "thought_process"
+    },
+    {
+      "literal": "Thought content:",
+      "category": "thought_content"
+    },
+    {
+      "literal": "Concentration, memory:",
+      "category": "concentration_memory"
+    },
+    {
+      "literal": "Insight:",
+      "category": "insight"
+    },
+    {
+      "literal": "Judgement:",
+      "category": "judgement"
+    },
+    {
+      "literal": "MMSE:",
+      "category": "mmse"
+    },
+    {
+      "literal": "Self destructive or homicidal ideation, impulse control:",
+      "category": "self_destruction"
+    },
+    {
+      "literal": "Perception:",
+      "category": "perception"
+    },
+    {
+      "literal": "Oriented to:",
+      "category": "orientation"
+    }
+  ]
+}

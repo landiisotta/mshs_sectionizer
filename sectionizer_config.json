@@ -1,0 +1,7 @@
+{
+  "rules": "",
+  "phrase_matcher_attr": "TEXT",
+  "input_span_type": "ents",
+  "newline_pattern": "  ",
+  "require_start_line": "True"
+}

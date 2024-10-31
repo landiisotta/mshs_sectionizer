@@ -1,0 +1,744 @@
+{
+  "section_rules": [
+    {
+      "literal": "Assessment:",
+      "category": "assessment"
+    },
+    {
+      "literal": "A:",
+      "category": "assessment"
+    },
+    {
+      "literal": "PATIENT ASSESSMENT",
+      "category": "assessment"
+    },
+    {
+      "literal": "Overall Formulation/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "ED Assessment/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "  ED Assessment/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "ED Attending Assessment/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": " ED Attending Assessment/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Assessment and Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Assessment and plan:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Assessment / Brief Formulation:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Formulation/Assessment:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Assessment + Plan:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "A/P:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "A/p:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": " A/P:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "A/P",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "A&P:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Assessment/Plan:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Assessment/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": " Assessment/Plan",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "Final A/P:",
+      "category": "assessment_plan"
+    },
+    {
+      "literal": "CHIEF COMPLAINT:",
+      "category": "chief_complaint"
+    },
+    {
+      "literal": "Chief complaint:",
+      "category": "chief_complaint"
+    },
+    {
+      "literal": "CC:",
+      "category": "chief_complaint"
+    },
+    {
+      "literal": "Chief Complaint:",
+      "category": "chief_complaint"
+    },
+    {
+      "literal": "Chief Complaint / Reason for Admission:",
+      "category": "chief_complaint"
+    },
+    {
+      "literal": "Collateral:",
+      "category": "collateral"
+    },
+    {
+      "literal": "COLLATERAL:",
+      "category": "collateral"
+    },
+    {
+      "literal": "COLLATERAL",
+      "category": "collateral"
+    },
+    {
+      "literal": "Consults",
+      "category": "consults"
+    },
+    {
+      "literal": "Patient Demographic Information (PDI)",
+      "category": "demographics"
+    },
+    {
+      "literal": "Diagnosis:",
+      "category": "diagnosis"
+    },
+    {
+      "literal": "DSM 5 Diagnoses:",
+      "category": "diagnosis"
+    },
+    {
+      "literal": "DIAGNOSIS:",
+      "category": "diagnosis"
+    },
+    {
+      "literal": "Diagnoses:",
+      "category": "diagnosis"
+    },
+    {
+      "literal": "Dx:",
+      "category": "diagnosis"
+    },
+    {
+      "literal": "Differential Diagnosis:",
+      "category": "diagnosis"
+    },
+    {
+      "literal": "FAMILY HISTORY:",
+      "category": "family_history"
+    },
+    {
+      "literal": "FAMILY HX:",
+      "category": "family_history"
+    },
+    {
+      "literal": "Family Hx:",
+      "category": "family_history"
+    },
+    {
+      "literal": "Family History:",
+      "category": "family_history"
+    },
+    {
+      "literal": "Family History",
+      "category": "family_history"
+    },
+    {
+      "literal": "FHx:",
+      "category": "family_history"
+    },
+    {
+      "literal": "Family Psychiatric History:",
+      "category": "family_psychiatric_history"
+    },
+    {
+      "literal": "History of Present Illness",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": " History of Present Illness",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "HPI:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": " HPI:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "HPI",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "\" HPI:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Admitting HPI:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "ID:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Identifying Information:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Interval HPI:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "HISTORY OF PRESENT ILLNESS",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Subjective:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "S:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Narrative:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": " Narrative:",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": " Narrative",
+      "category": "history_of_present_illness"
+    },
+    {
+      "literal": "Recent Results (from the past 72 hour(s))",
+      "category": "lab_results"
+    },
+    {
+      "literal": "Abnormal Lab Results:",
+      "category": "lab_results"
+    },
+    {
+      "literal": "Labs/Radiology:",
+      "category": "lab_results"
+    },
+    {
+      "literal": "Imaging/Other Results:",
+      "category": "lab_results"
+    },
+    {
+      "literal": "Labs",
+      "category": "lab_results"
+    },
+    {
+      "literal": "Legal History;",
+      "category": "legal_history"
+    },
+    {
+      "literal": "Medical history:",
+      "category": "medical_history"
+    },
+    {
+      "literal": "Interval History:",
+      "category": "medical_history"
+    },
+    {
+      "literal": "CURRENT MEDICATIONS:",
+      "category": "medications"
+    },
+    {
+      "literal": "Current Medications:",
+      "category": "medications"
+    },
+    {
+      "literal": "Current medications:",
+      "category": "medications"
+    },
+    {
+      "literal": "Current Meds:",
+      "category": "medications"
+    },
+    {
+      "literal": "ED Meds:",
+      "category": "medications"
+    },
+    {
+      "literal": "Inpatient Scheduled Medications:",
+      "category": "medications"
+    },
+    {
+      "literal": "Medication Indications",
+      "category": "medications"
+    },
+    {
+      "literal": "Past meds:",
+      "category": "medications"
+    },
+    {
+      "literal": "Mental Status:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "MENTAL STATUS EXAM:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "MENTAL STATUS EXAM",
+      "category": "mental_status"
+    },
+    {
+      "literal": "Mental Status Exam:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "Mental Status  Exam:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "Mental Status Exam",
+      "category": "mental_status"
+    },
+    {
+      "literal": "Mental Status Examination:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "MSE",
+      "category": "mental_status"
+    },
+    {
+      "literal": "MSE:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "Discharge Mental Status Examination:",
+      "category": "mental_status"
+    },
+    {
+      "literal": "CPEP Initial Evaluation",
+      "category": "note_type"
+    },
+    {
+      "literal": "CPEP Progress Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "CPEP Attending Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "CPEP Attending note",
+      "category": "note_type"
+    },
+    {
+      "literal": "CPEP Psychiatry Attending Follow Up Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "CPEP Attending Progress Note ",
+      "category": "note_type"
+    },
+    {
+      "literal": "Chart reviewed.",
+      "category": "note_type"
+    },
+    {
+      "literal": "ED Psychiatry Progress Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "ED Psychiatry Progress Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "PSYCHIATRY ED ATTENDING PROGRESS NOTE",
+      "category": "note_type"
+    },
+    {
+      "literal": "ED Attending Note",
+      "category": "note_type"
+    },
+    {
+      "literal": " ED ATTENDING NOTE:",
+      "category": "note_type"
+    },
+    {
+      "literal": " ED attending note:",
+      "category": "note_type"
+    },
+    {
+      "literal": " ED Attending",
+      "category": "note_type"
+    },
+    {
+      "literal": "Attending Notes",
+      "category": "note_type"
+    },
+    {
+      "literal": " Attending Notes",
+      "category": "note_type"
+    },
+    {
+      "literal": "Attending Note:",
+      "category": "note_type"
+    },
+    {
+      "literal": " Attending Note:",
+      "category": "note_type"
+    },
+    {
+      "literal": "Attending Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "ATTENDING NOTE",
+      "category": "note_type"
+    },
+    {
+      "literal": " ATTENDING NOTE:",
+      "category": "note_type"
+    },
+    {
+      "literal": "Progress Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "Progress Notes",
+      "category": "note_type"
+    },
+    {
+      "literal": "Psychiatric Emergency (CPEP) ED Initial Attending Evaluation Note:",
+      "category": "note_type"
+    },
+    {
+      "literal": "Reevaluation Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "Re-evaluation Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "REEVAL NOTE",
+      "category": "note_type"
+    },
+    {
+      "literal": "Brief attending note:",
+      "category": "note_type"
+    },
+    {
+      "literal": "Provider Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "Inpatient Psychiatry Progress Note",
+      "category": "note_type"
+    },
+    {
+      "literal": "Discharge Summary and Continuing Care Plan",
+      "category": "note_type"
+    },
+    {
+      "literal": "Psychiatry ROC progress note:",
+      "category": "note_type"
+    },
+    {
+      "literal": "PSYCHIATRY ATTENDING EOB PROGRESS NOTE",
+      "category": "note_type"
+    },
+    {
+      "literal": "PSYCH ED ATTENDING INITIAL PSYCHIATRIC EVAL",
+      "category": "note_type"
+    },
+    {
+      "literal": "Doctor's Notes",
+      "category": "note_type"
+    },
+    {
+      "literal": " Doctor's Notes",
+      "category": "note_type"
+    },
+    {
+      "literal": "TURNOVER NOTE:",
+      "category": "note_type"
+    },
+    {
+      "literal": "Critical Care:",
+      "category": "note_type"
+    },
+    {
+      "literal": "Objective:",
+      "category": "objective"
+    },
+    {
+      "literal": "O:",
+      "category": "objective"
+    },
+    {
+      "literal": "PAST MEDICAL HX:",
+      "category": "past_medical_history"
+    },
+    {
+      "literal": "Past Medical History",
+      "category": "past_medical_history"
+    },
+    {
+      "literal": "Past Medical History:",
+      "category": "past_medical_history"
+    },
+    {
+      "literal": "PMH:",
+      "category": "past_medical_history"
+    },
+    {
+      "literal": "Physical Exam",
+      "category": "physical_exam"
+    },
+    {
+      "literal": " Physical Exam",
+      "category": "physical_exam"
+    },
+    {
+      "literal": "Physical Exam:",
+      "category": "physical_exam"
+    },
+    {
+      "literal": "Physical Examination",
+      "category": "physical_exam"
+    },
+    {
+      "literal": "Physical Exam Constitutional:",
+      "category": "physical_exam"
+    },
+    {
+      "literal": "PE:",
+      "category": "physical_exam"
+    },
+    {
+      "literal": "Plan:",
+      "category": "plan"
+    },
+    {
+      "literal": "P:",
+      "category": "plan"
+    },
+    {
+      "literal": "Plan",
+      "category": "plan"
+    },
+    {
+      "literal": "PLAN",
+      "category": "plan"
+    },
+    {
+      "literal": "Disposition Plan:",
+      "category": "plan"
+    },
+    {
+      "literal": "Patient's preferred language:",
+      "category": "preferred_language"
+    },
+    {
+      "literal": "Patient Active Problem List",
+      "category": "problem_list"
+    },
+    {
+      "literal": "PSYCHIATRIC HX:",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "PPHx:",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "PAST PSYCHIATRIC HX:",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "PPH:",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "Past Psych Hx:",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "Past Psychiatric History",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "Past Psychiatric History:",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "Past psychiatric hx (hosp/outpt):",
+      "category": "psychiatric_history"
+    },
+    {
+      "literal": "Readmission Risk Assessment",
+      "category": "readmission_risk"
+    },
+    {
+      "literal": "Review of Systems",
+      "category": "review_of_systems"
+    },
+    {
+      "literal": " Review of Systems",
+      "category": "review_of_systems"
+    },
+    {
+      "literal": "Review of Systems:",
+      "category": "review_of_systems"
+    },
+    {
+      "literal": "ROS",
+      "category": "review_of_systems"
+    },
+    {
+      "literal": " ROS",
+      "category": "review_of_systems"
+    },
+    {
+      "literal": "Risk behaviors:",
+      "category": "risk_behavior"
+    },
+    {
+      "literal": "SOCIAL HX:",
+      "category": "social_history"
+    },
+    {
+      "literal": "Social Hx:",
+      "category": "social_history"
+    },
+    {
+      "literal": "SOCIAL:",
+      "category": "social_history"
+    },
+    {
+      "literal": "Social History:",
+      "category": "social_history"
+    },
+    {
+      "literal": "Social History",
+      "category": "social_history"
+    },
+    {
+      "literal": " Social History",
+      "category": "social_history"
+    },
+    {
+      "literal": "Social history:",
+      "category": "social_history"
+    },
+    {
+      "literal": " Sexual Orientation/Gender Identity",
+      "category": "social_history"
+    },
+    {
+      "literal": "Sexual Orientation/Gender Identity",
+      "category": "social_history"
+    },
+    {
+      "literal": "SUBSTANCE ABUSE HX:",
+      "category": "substance_abuse_hx"
+    },
+    {
+      "literal": "Most Recent Suicide Severity Rating Scale (C-SSRS)",
+      "category": "suicide_risk"
+    },
+    {
+      "literal": "Suicide Risk Assessment",
+      "category": "suicide_risk"
+    },
+    {
+      "literal": "Suicide Risk  Assessment",
+      "category": "suicide_risk"
+    },
+    {
+      "literal": "Suicide/Violence Risk Assessment",
+      "category": "suicide_violence_risk"
+    },
+    {
+      "literal": "Suicide and Violence Risk Assessment",
+      "category": "suicide_violence_risk"
+    },
+    {
+      "literal": "Suicide Risk Assessment/Violence Risk Assessment",
+      "category": "suicide_violence_risk"
+    },
+    {
+      "literal": "Past Surgical History:",
+      "category": "surgical_history"
+    },
+    {
+      "literal": "Past Surgical History",
+      "category": "surgical_history"
+    },
+    {
+      "literal": "TRAUMA HISTORY:",
+      "category": "trauma_history"
+    },
+    {
+      "literal": "TRAUMA hx:",
+      "category": "trauma_history"
+    },
+    {
+      "literal": "TRAUMA",
+      "category": "trauma_history"
+    },
+    {
+      "literal": "Treatment Plan:",
+      "category": "treatment_plan"
+    },
+    {
+      "literal": "Violence Risk Assessment",
+      "category": "violence_risk"
+    },
+    {
+      "literal": "Vital Signs:",
+      "category": "vital_signs"
+    },
+    {
+      "literal": "Vitals:",
+      "category": "vital_signs"
+    },
+    {
+      "literal": "VS:",
+      "category": "vital_signs"
+    }
+  ]
+}

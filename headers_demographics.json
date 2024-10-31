@@ -1,0 +1,72 @@
+{
+  "section_rules": [
+    {
+      "literal": "Demographics:",
+      "category": "demographics"
+    },
+    {
+      "literal": "Symptoms:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Symptoms",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms - comment on positive symptoms within the last six months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms - comment on positive symptoms within the  last six months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms - comment on positive  symptoms within the last six months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms - comment on positive symptoms within the last  six months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms - comment on positive symptoms within the last six  months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms     Please comment on any positive symptoms within the last six months:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms - comment on positive symptoms within  the last six months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms - comment on positive symptoms  within the last six months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Psychiatric Symptoms -  comment on positive symptoms within the last six months**:",
+      "category": "symptoms"
+    },
+    {
+      "literal": "·    Psychiatric Symptoms",
+      "category": "symptoms"
+    },
+    {
+      "literal": "Other Risk Factors for Suicidality - please comment on any positive risk factors:",
+      "category": "risk"
+    },
+    {
+      "literal": "Risk Level:",
+      "category": "risk"
+    },
+    {
+      "literal": "Past Aggressive/Violent Behavior:",
+      "category": "risk"
+    },
+    {
+      "literal": "Notes:",
+      "category": "notes"
+    }
+  ]
+}
